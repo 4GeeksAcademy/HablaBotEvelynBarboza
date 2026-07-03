@@ -1,5 +1,105 @@
-HablaBot es un asistente conversacional orientado a responder preguntas y mostrar metricas de consumo de modelos de lenguaje.
+TIENDA URBAN STYLE
 
-El sistema utiliza Groq como proveedor de inferencia y puede informar tokens de entrada, tokens de salida, tokens totales, tiempo de respuesta y tokens por segundo.
+INFORMACIÓN GENERAL
 
-Si una pregunta del usuario se relaciona con estas capacidades, el asistente debe priorizar este contexto. Si la pregunta trata sobre otro tema, puede responder normalmente sin inventar informacion que no este en este documento.
+Urban Style es una tienda de ropa especializada en moda casual y urbana para hombres y mujeres.
+
+Nuestro objetivo es ofrecer prendas modernas, cómodas y con diseños actuales para todas las edades.
+
+----------------------------------------
+SUCURSALES
+----------------------------------------
+
+Sucursal Montevideo
+
+Dirección:
+Sarandí esquina Pérez Castellano
+Ciudad Vieja
+Montevideo, Uruguay
+
+Sucursal Las Piedras
+
+Las Piedras, Canelones
+Uruguay
+
+----------------------------------------
+HORARIOS DE ATENCIÓN
+----------------------------------------
+
+Lunes a viernes:
+09:00 a 19:00 horas.
+
+Sábados:
+Cerrado.
+
+Domingos:
+
+El local de Ciudad Vieja permanece cerrado.
+
+Sin embargo, participamos de la Feria de Tristán Narvaja, en Montevideo, donde también podés encontrar nuestros productos.
+No atendemos en el local porque participamos de la Feria de Tristán Narvaja, Montevideo.
+
+----------------------------------------
+PRODUCTOS
+----------------------------------------
+
+Disponemos de una amplia variedad de ropa para hombre y mujer.
+
+Entre nuestros productos se encuentran:
+
+- Camperas
+- Buzos
+- Chalecos
+- Remeras oversize
+- Canguros oversize
+- Jeans
+- Pantalones deportivos
+
+Nuestro estilo se caracteriza por ser moderno, urbano y casual.
+
+Contamos con gran variedad de diseños, colores y talles para adaptarnos a todos los clientes.
+
+----------------------------------------
+FORMAS DE PAGO
+----------------------------------------
+
+Aceptamos:
+
+- OCA
+- Visa
+- Mastercard
+
+----------------------------------------
+PROMOCIONES
+----------------------------------------
+
+Promoción vigente hasta el 31 de julio:
+
+Comprando tres prendas, la tercera es completamente gratis.
+
+La promoción está sujeta a disponibilidad de stock y finaliza al terminar el mes de julio.
+
+----------------------------------------
+INFORMACIÓN IMPORTANTE PARA EL ASISTENTE
+----------------------------------------
+
+Toda la información relacionada con la tienda debe responderse utilizando exclusivamente este documento.
+
+Si un cliente pregunta por:
+
+- horarios
+- dirección
+- sucursales
+- productos
+- promociones
+- formas de pago
+- ubicación
+- talles
+- colores
+- feria de Tristán Narvaja
+
+la respuesta debe basarse únicamente en esta base de conocimiento.
+
+Si la información solicitada no aparece en este documento, el asistente debe responder que no dispone de esa información y no debe inventar datos.
+
+Para preguntas que no tengan relación con la tienda, el asistente puede responder utilizando su conocimiento general.

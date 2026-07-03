@@ -49,6 +49,14 @@ async function loadKnowledgeContext() {
 
 const knowledgeContextPromise = loadKnowledgeContext();
 
+const SYSTEM_INSTRUCTIONS =
+  "Eres el asistente oficial de esta aplicacion.\n\n" +
+  "Dispones de una base de conocimiento oficial que debes utilizar como fuente principal de informacion.\n\n" +
+  "Cuando el usuario haga preguntas relacionadas con la aplicacion, sus funcionalidades o cualquier informacion presente en la base de conocimiento, debes responder utilizando exclusivamente esa informacion.\n\n" +
+  "No inventes datos.\n\n" +
+  "Si la informacion solicitada no aparece en la base de conocimiento, indicalo claramente y no supongas respuestas.\n\n" +
+  "Solo cuando la pregunta no tenga relacion con la base de conocimiento puedes responder utilizando tu conocimiento general.";
+
 function normalizeRole(role: string): OutgoingMessage["role"] {
   if (role === "ai") {
     return "assistant";
@@ -118,9 +126,7 @@ export async function POST(request: Request) {
       ? [
           {
             role: "system",
-            content:
-              "Eres un asistente util. Dispones de la siguiente informacion como contexto. Utilizala unicamente cuando sea relevante para responder las preguntas del usuario. Si la respuesta no se encuentra en este documento, responde normalmente sin inventar informacion.\n\n" +
-              knowledgeContext,
+            content: `${SYSTEM_INSTRUCTIONS}\n\nBase de conocimiento oficial:\n${knowledgeContext}`,
           },
           ...messages,
         ]
